@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>TriggerFlow - Property Management AI Automations</title>
-  <!-- Use absolute path for project site CSS -->
-  <link rel="stylesheet" href="/triggerrflow-landing/styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
     <h1>TriggerFlow: AI Automations for Property Management</h1>
     <p>Never miss a maintenance request or late invoice again.</p>
   </header>
+
   <main>
     <ul class="benefits">
-      <li>📧 Automatic email triage & daily urgent summaries</li>
-      <li>🧾 Automated invoice creation & payment reminders</li>
-      <li>⚙️ Seamless integration with Gmail & Google Sheets</li>
+      <li>📧 Automatic email triage &amp; daily urgent summaries</li>
+      <li>🧾 Automated invoice creation &amp; payment reminders</li>
+      <li>⚙️ Seamless integration with Gmail &amp; Google Sheets</li>
       <li>⏱ Save 2+ hours/week on admin tasks</li>
     </ul>
+
     <div class="cta">
       <p>Join our early-access pilot at 50% off</p>
       <a href="#signup">Get Early Access</a>
@@ -27,14 +28,27 @@
     <section id="signup">
       <h2>Early-Access Signup</h2>
       <form action="mailto:you@triggerrflow.com" method="POST" enctype="text/plain">
-        <input type="text" name="Name" placeholder="Your Name" required>
-        <input type="email" name="Email" placeholder="Your Email" required>
-        <input type="text" name="Company" placeholder="Company (optional)">
-        <textarea name="Pain" rows="3" placeholder="Your #1 pain with tenant/vendor comms" required></textarea>
+        <label>
+          <span class="sr-only">Name</span>
+          <input type="text" name="Name" placeholder="Your Name" required />
+        </label>
+        <label>
+          <span class="sr-only">Email</span>
+          <input type="email" name="Email" placeholder="Your Email" required />
+        </label>
+        <label>
+          <span class="sr-only">Company</span>
+          <input type="text" name="Company" placeholder="Company (optional)" />
+        </label>
+        <label>
+          <span class="sr-only">Pain Point</span>
+          <textarea name="Pain" rows="3" placeholder="Your #1 pain with tenant/vendor comms" required></textarea>
+        </label>
         <button type="submit">Request Demo</button>
       </form>
     </section>
   </main>
+
   <footer>
     &copy; 2025 TriggerFlow. All rights reserved.
   </footer>
