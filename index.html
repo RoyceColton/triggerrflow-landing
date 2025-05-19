@@ -1,56 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TriggerFlow - Property Management AI Automations</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <h1>TriggerFlow: AI Automations for Property Management</h1>
-    <p>Never miss a maintenance request or late invoice again.</p>
-  </header>
-
-  <main>
-    <ul class="benefits">
-      <li>📧 Automatic email triage &amp; daily urgent summaries</li>
-      <li>🧾 Automated invoice creation &amp; payment reminders</li>
-      <li>⚙️ Seamless integration with Gmail &amp; Google Sheets</li>
-      <li>⏱ Save 2+ hours/week on admin tasks</li>
-    </ul>
-
-    <div class="cta">
-      <p>Join our early-access pilot at 50% off</p>
-      <a href="#signup">Get Early Access</a>
-    </div>
-
-    <section id="signup">
-      <h2>Early-Access Signup</h2>
-      <form action="mailto:you@triggerrflow.com" method="POST" enctype="text/plain">
-        <label>
-          <span class="sr-only">Name</span>
-          <input type="text" name="Name" placeholder="Your Name" required />
-        </label>
-        <label>
-          <span class="sr-only">Email</span>
-          <input type="email" name="Email" placeholder="Your Email" required />
-        </label>
-        <label>
-          <span class="sr-only">Company</span>
-          <input type="text" name="Company" placeholder="Company (optional)" />
-        </label>
-        <label>
-          <span class="sr-only">Pain Point</span>
-          <textarea name="Pain" rows="3" placeholder="Your #1 pain with tenant/vendor comms" required></textarea>
-        </label>
-        <button type="submit">Request Demo</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    &copy; 2025 TriggerFlow. All rights reserved.
-  </footer>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="AI Automations for Property Management" />
+        <meta name="author" content="TriggerFlow" />
+        <title>TriggerFlow - AI Automations for Property Management</title>
+        <!-- Favicon-->        
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#">TriggerFlow</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Sign Up</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/004080/ffffff&text=TriggerFlow+AI+Automations" alt="TriggerFlow AI Automations" /></div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light">Never miss a maintenance request or late invoice again.</h1>
+                    <p>TriggerFlow harnesses AI and automation to streamline tenant communication, invoice generation, and follow-up, all within your existing tools.</p>
+                    <a class="btn btn-primary btn-xl text-uppercase" href="#signup">Get Early Access</a>
+                </div>
+            </div>
+            <!-- Features Row-->
+            <section id="features" class="row gx-4 gx-lg-5">
+                <div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope fa-4x text-primary mb-3"></i>
+                            <h2 class="card-title h4">Email Triage</h2>
+                            <p class="card-text">Automatically categorize and summarize tenant/vendor emails for urgent issues.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-file-invoice-dollar fa-4x text-primary mb-3"></i>
+                            <h2 class="card-title h4">Invoice Automation</h2>
+                            <p class="card-text">Generate, send, and follow up on invoices without lifting a finger.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-cogs fa-4x text-primary mb-3"></i>
+                            <h2 class="card-title h4">Integrated Workflows</h2>
+                            <p class="card-text">Seamlessly connect Gmail, Google Sheets, and GPT APIs for end-to-end automation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-clock fa-4x text-primary mb-3"></i>
+                            <h2 class="card-title h4">Time Savings</h2>
+                            <p class="card-text">Reclaim 2+ hours per week from administrative tasks.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Call to Action-->
+            <div id="signup" class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body"><p class="text-white m-0">Join our early-access pilot at 50% off and transform your property management workflows.</p></div>
+            </div>
+            <!-- Signup Form-->
+            <section class="row gx-4 gx-lg-5 justify-content-center mb-5" id="contact">
+                <div class="col-lg-6">
+                    <h2 class="text-center mb-4">Early-Access Signup</h2>
+                    <form action="mailto:you@triggerrflow.com" method="POST" enctype="text/plain">
+                        <div class="form-group mb-3">
+                            <input class="form-control form-control-lg" name="Name" placeholder="Your Name *" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <input class="form-control form-control-lg" name="Email" type="email" placeholder="Your Email *" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <input class="form-control form-control-lg" name="Company" placeholder="Company (optional)" />
+                        </div>
+                        <div class="form-group mb-3">
+                            <textarea class="form-control form-control-lg" name="Pain" placeholder="Your #1 pain with tenant/vendor comms *" required></textarea>
+                        </div>
+                        <div class="d-grid"><button class="btn btn-primary btn-xl text-uppercase" type="submit">Request Demo</button></div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">&copy; 2025 TriggerFlow. All rights reserved.</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
